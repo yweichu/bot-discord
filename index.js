@@ -19,10 +19,10 @@ client.on('ready', () => {
 
 client.on('messageCreate', (message) => {
   if (
-    message.channel.id === '1380543486054633533' &&
+    message.channel.id === '1380543486054633533' && '1380543627180376084'
     message.author.id === '1174332637322674186'
   ) {
-    message.channel.send('<@&1379823108881645629> nuovo tweet!');
+    message.channel.send('<@&1379823108881645629> nuovo tweet! disabilita ping in <#1379151280240332830> <:kohane_sip:1389349346826260620>');
   }
 });
 
